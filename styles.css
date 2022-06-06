@@ -162,6 +162,21 @@ body {
     text-align: center;
     margin-bottom: 15px;
 }
+.skills__blocks {
+    /* display: flex;
+    flex-direction: row; */
+    justify-content: space-around;
+}
+
+.skills__block {
+
+}
+
+.skills__subheader {
+    color: var(--primary-text-color);
+    text-align: center;
+    margin-bottom: 15px;
+}
 
 .skills__text {
     color: var(--secondary-text-color);
@@ -176,7 +191,7 @@ body {
 .experiences__header {
     color: var(--secondary-text-color);
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .experiences__company-header-durability {
@@ -191,7 +206,7 @@ body {
     text-decoration-color: var(--text-decoration-color);
     text-decoration-line: underline;
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .experiences__company-project {
